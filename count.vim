@@ -4,7 +4,3 @@ while i < 5
   echo "count is" i
   let i += 1
 endwhile
-
-function! HelloFunc()
-    echo "Hello World"
-endfunction
