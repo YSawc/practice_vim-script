@@ -26,3 +26,7 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 - implicit_consent.vim
  - functionにdict参照を用いることで呼び出し関数の処理を変換できる
   - 言い換えると関数の呼び出しが拡張できる
+
+- function_arg.vim
+ - 関数の引数にはスコープを利用する。
+  - スコープの種類は多くない。
