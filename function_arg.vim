@@ -1,17 +1,16 @@
-function! s:a(arg)
-	echo "a:".a:arg
+function! s:call_arg(str)
+		echo "call_arg:".a:str
 endfunction
 
-function! s:b(arg1, arg2)
-	echo "b:".b:arg1.b:arg2
+function! s:double_arg(str1, str2)
+		echo "double_arg:".a:str1.a:str2
 endfunction
 
-let Func_a = function('s:a')
-call Func_a("hello_world")
-let Func_b = function('s:b')
-call Func_b("hello", "world")
+let F = function('s:Call_arg')
+call F("hello_world")
 
-" a:hello_world
-" function <SNR>241_b の処理中にエラーが検出されました:
-" 行    1:
-" E121: 未定義の変数です: b:arg2
+let F = function('s:double_arg')
+call F("hello", "double_world")
+
+" c:hello_world
+" double_arg:hellodouble_world
