@@ -22,3 +22,7 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 - range_scope_another.vim
  - for n in部分でバッファ内の各行数番号が表示されるのかと思っていたが違った
   - 実際にはバッファ内のfunctionを呼び出した行が丸々表示される
+
+- implicit_consent.vim
+ - functionにdict参照を用いることで呼び出し関数の処理を変換できる
+  - 言い換えると関数の呼び出しが拡張できる
