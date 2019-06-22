@@ -1,4 +1,4 @@
-# [Vim scripts短期集中講座](https://mattn.kaoriya.net/software/vim/20111202085236.htm)を参考に、vimscriptの基本文法を学習し、最小のvimpluginを作る土台を積み上げる学習記録
+# [Vim scripts短期集中講座](https://mattn.kaoriya.net/software/vim/20111202085236.htm)や既存のプラグインのgithubを参考に、vimscriptの基本文法を学習し、最小のvimpluginを作る土台を積み上げる学習記録
 既存のプラグインを読めるようになること、プラグインの自作に向けた基礎を身に付けたい
 
 source ファイル名を実行することでfunctionの定義が読み込まれる
