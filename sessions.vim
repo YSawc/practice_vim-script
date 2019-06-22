@@ -12,3 +12,5 @@ let s:not_exist_session_path = expand('./test_not_exist_sessions')
 if isdirectory(s:not_exist_session_path)
 	echo "can't call me"
 endif
+
+" hello
