@@ -38,4 +38,6 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 - created_dir.vim
 	- ディレクトリが存在しない場合、mkdir第二引数に"p"を指定しない場合エラーが出力される
 
-
+- call_from_autoload#hello
+	- ディレクトリが自動読込されるパスではないため、sourceする必要がある
+		- ~/.vim配下にある場合はvim起動時に読み込まれる
