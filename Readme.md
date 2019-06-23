@@ -41,3 +41,6 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 - call_from_autoload#hello
 	- ディレクトリが自動読込されるパスではないため、sourceする必要がある
 		- ~/.vim配下にある場合はvim起動時に読み込まれる
+
+- command_execute.vim
+	- コマンド化した関数は関数名で呼ぶことができる
