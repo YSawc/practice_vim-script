@@ -1,13 +1,7 @@
-" 例えば、help を開いているウィンドウをフォーカスを動かさずに閉じるとかできるようになります。
-" 引用元 [Vim のバッファとウィンドウを理解する](http://cohama.hateblo.jp/entry/2013/09/28/220808)
-
-function! CloseHelpWin()
-  for w in range(1, winnr('$'))
-    let bt = getwinvar(w, '&buftype')
-    if bt ==# 'help'
-      execute w . 'wincmd w'
-      q
-      " break
-    endif
-  endfor
+function! select_color_scheme#list() abort
+	let l:list = split(execute('ls'), '\n')
+	call popup_menu(l:list, {
+		\ 'borderchars': [' ',' ',' ',' ','*','*','*','*'],
+		\ "title": " color_list",
+		\ })
 endfunction
