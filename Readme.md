@@ -51,3 +51,6 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 	- -nargsにより、引数を指定する
 		- デフォルト値は0.
 	- 多重起動しないようにloaded_test_session
+
+- buffer_and_window.vim
+	- 現在のバッファのポップアップ表示と、grepによるlistのインデックスを揃えるというのが鍵になりそう
