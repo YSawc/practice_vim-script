@@ -8,10 +8,12 @@ function! s:_set_list_before() abort
 	let s:buffer_num_list = []
 	let s:buffer_dict = {}
 
-	" for i in range(len(buffer_list))
-		" echo buffer_list[i]
-		" echo add(num_list, matchstr(buffer_list[i], '\d\+'))
-	" endfor
+	for i in range(len(s:buffer_list))
+		" echo s:buffer_list[i]
+		echo add(s:buffer_num_list, matchstr(s:buffer_list[i], '\d\+'))
+		" echo s:buffer_dict[buffer_num_list[i]]
+		let s:buffer_dict[s:buffer_num_list[i]] = s:buffer_list[i]
+	endfor
 endfunction
 
 function! s:_set_buffer_list() abort
