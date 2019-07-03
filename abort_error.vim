@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! Foo() abort
   asdfasdf
   echo "foo"

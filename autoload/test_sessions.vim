@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! s:_path_join(file) abort
 	return g:session_path_test . '/' . a:file
 endfunction

@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! s:call_arg(str)
 		echo "call_arg:".a:str
 endfunction

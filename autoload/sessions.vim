@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! sessions#choice(sesson_list, id, idx) abort
 	let session = a:sesson_list[a:idx-1]
 

@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 " TODO: 出力結果に対してgrepを掛けて行の始めの数字を配列インデックスとする
 " :echo getline('.')
 

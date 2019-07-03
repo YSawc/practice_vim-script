@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 function! HelloAnytimeAnother()
 	for n in range(a:firstline, a:lastline)
 		echo "hello anytime! call time .. " . getline(n) . " ."

@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 " セッション機能 (https://qiita.com/gorilla0513/items/838138004f86b66d5668)
 " skanehira/vsession
 " https://github.com/skanehira/vsession/blob/master/plugin/vsession.vim

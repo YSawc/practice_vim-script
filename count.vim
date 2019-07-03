@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 " This is a simple while loop in Vim script.
 let i = 1
 while i < 5

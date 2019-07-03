@@ -1,3 +1,5 @@
+scriptencoding utf-8
+
 if !exists('s:test_session_path')
 	let s:test_session_path = expand('./test_sessions')
 endif
