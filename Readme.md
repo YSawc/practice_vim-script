@@ -53,7 +53,7 @@ source ファイル名を実行することでfunctionの定義が読み込ま�
 	- 多重起動しないようにloaded_test_session
 
 - buffer_and_window.vim
-	- 現在のバッファのポップアップ表示と、grepによるlistのインデックスを揃えるというのが鍵になりそう
+	- 現在のバッファのポップアップ表示と、grepによるlistのインデックスを揃えるというのが鍵になりそう [Done]
 	- バッファを配列に分割して、最初にマッチした数値をハッシュのvalueにすれば良さそう
 		- https://thinca.hatenablog.com/entry/20100201/1265009821
 		- https://kasei-san.hatenadiary.org/entry/20130709/p1
